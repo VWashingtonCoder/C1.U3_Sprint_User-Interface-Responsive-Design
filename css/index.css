@@ -209,5 +209,24 @@ header .bgAbout{
 .aboutTop{
     border-bottom: 2px solid #ff4b00;
 }
+
+/*Middle Style*/
+.aboutMidTop{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.aboutMidBottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.aboutBox{
+    width: 45%;
+    padding: 2% 0;
+    border-bottom: 2px solid #ff4b00;
+}
+
+/*Bottom Style*/
 /*Responsive Styles*/
 /*Home_Index*/
