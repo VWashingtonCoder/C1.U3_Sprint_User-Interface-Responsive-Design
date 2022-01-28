@@ -73,6 +73,31 @@ section, footer{
     margin: 0 auto;
 }
 
+/*Top Nav*/
+.topnav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    align-items: center;
+}
+.topnav img{
+    width: 20%;
+}
+.topnav a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Header Pic*/
+header .bg{
+    background-image: url(../img/jumbo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin: 3% 9%;
+} 
+
 /*Top Section Styles*/
 
 .top-content {
@@ -88,6 +113,10 @@ section, footer{
     width: 35%;
     padding: 0 1%;
     padding-bottom: 4%;  
+}
+
+.top-content .text-container h2 {
+    text-align: center;
 }
 
 /*Middle Section Styles*/
