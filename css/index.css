@@ -226,7 +226,37 @@ header .bgAbout{
     padding: 2% 0;
     border-bottom: 2px solid #ff4b00;
 }
-
-/*Bottom Style*/
 /*Responsive Styles*/
-/*Home_Index*/
+@media(max-width: 500px) {
+/*Home_Index Changes*/
+    .top-content{
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .top-content .text-container{
+        width:auto;
+    }
+    .middle-content h2{
+        text-align: center;
+    }
+    .boxes .box{
+        width: 45%;
+        height: 150px;
+    }
+    .bottom-content{
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .bottom-content .text-container{
+        width: 80%;
+        padding: 3% 0;
+    }
+    .bottom-content .text-container h2{
+        text-align: center;
+    }
+    footer nav{
+        flex-flow: column;
+        align-items: center;
+    }
+}
+
