@@ -104,45 +104,69 @@ header .bg{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 4%;
     border-bottom: 2px solid #ff4b00;
     text-align: justify;
 }
-
 .top-content .text-container {
     width: 35%;
     padding: 0 1%;
     padding-bottom: 4%;  
 }
-
 .top-content .text-container h2 {
     text-align: center;
 }
 
 /*Middle Section Styles*/
 .middle-content {
-    margin-bottom: 4%;
+    border-bottom: 2px solid #ff4b00;
 }
-
 .middle-content h2 {
     margin-bottom: 0;
 }
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
 .middle-content .boxes .box {
     background: black;
-    margin: 4% 0;
+    margin: 2% 0;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 7%;
 }
-
+#boxone{
+    background-color: teal;
+}
+#boxtwo{
+    background-color: gold;
+}
+#boxthree{
+    background-color: cadetblue;
+}
+#boxfour{
+    background-color: coral;
+}
+#boxfive{
+    background-color: crimson;
+}
+#boxsix{
+    background-color: forestgreen;
+}
+#boxseven{
+    background-color: darkorchid;
+}
+#boxeight{
+    background-color: hotpink;
+}
+#boxnine{
+    background-color: indigo;
+}
+#boxten{
+    background-color: dodgerblue;
+}
 /*Bottom Section Styles*/
 .bottom-content {
     display: flex;
@@ -161,6 +185,10 @@ header .bg{
 footer {
     width: 100%;
     background-color: #ff4b00;
+}
+footer nav{
+    display: flex;
+    justify-content: space-around;
 }
 
 /*About Page Styles*/
