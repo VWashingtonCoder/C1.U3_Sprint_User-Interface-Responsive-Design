@@ -189,6 +189,7 @@ footer {
 footer nav{
     display: flex;
     justify-content: space-around;
+
 }
 footer a{
     text-decoration: none;
@@ -196,6 +197,17 @@ footer a{
 }
 
 /*About Page Styles*/
+/*Header Style*/
+header .bgAbout{
+    background-image: url(../img/jumbo-about.png);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+}
 
-
+/*Top Style*/
+.aboutTop{
+    border-bottom: 2px solid #ff4b00;
+}
 /*Responsive Styles*/
+/*Home_Index*/
