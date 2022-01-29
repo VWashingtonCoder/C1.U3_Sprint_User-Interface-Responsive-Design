@@ -73,47 +73,100 @@ section, footer{
     margin: 0 auto;
 }
 
+/*Top Nav*/
+.topnav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    align-items: center;
+}
+.topnav img{
+    width: 20%;
+}
+.topnav a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Header Pic*/
+header .bg{
+    background-image: url(../img/jumbo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin: 3% 9%;
+} 
+
 /*Top Section Styles*/
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 4%;
     border-bottom: 2px solid #ff4b00;
     text-align: justify;
 }
-
 .top-content .text-container {
     width: 35%;
     padding: 0 1%;
     padding-bottom: 4%;  
 }
+.top-content .text-container h2 {
+    text-align: center;
+}
 
 /*Middle Section Styles*/
 .middle-content {
-    margin-bottom: 4%;
+    border-bottom: 2px solid #ff4b00;
 }
-
 .middle-content h2 {
     margin-bottom: 0;
 }
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
 .middle-content .boxes .box {
     background: black;
-    margin: 4% 0;
+    margin: 2% 0;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 7%;
 }
-
+#boxone{
+    background-color: teal;
+}
+#boxtwo{
+    background-color: gold;
+}
+#boxthree{
+    background-color: cadetblue;
+}
+#boxfour{
+    background-color: coral;
+}
+#boxfive{
+    background-color: crimson;
+}
+#boxsix{
+    background-color: forestgreen;
+}
+#boxseven{
+    background-color: darkorchid;
+}
+#boxeight{
+    background-color: hotpink;
+}
+#boxnine{
+    background-color: indigo;
+}
+#boxten{
+    background-color: dodgerblue;
+}
 /*Bottom Section Styles*/
 .bottom-content {
     display: flex;
@@ -133,8 +186,101 @@ footer {
     width: 100%;
     background-color: #ff4b00;
 }
+footer nav{
+    display: flex;
+    justify-content: space-around;
+
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
 
 /*About Page Styles*/
+/*Header Style*/
+header .bgAbout{
+    background-image: url(../img/jumbo-about.png);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+}
 
+/*Top Style*/
+.aboutTop{
+    border-bottom: 2px solid #ff4b00;
+}
 
+/*Middle Style*/
+.aboutMidTop{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.aboutMidBottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.aboutBox{
+    width: 45%;
+    padding: 2% 0;
+    border-bottom: 2px solid #ff4b00;
+}
 /*Responsive Styles*/
+@media(max-width: 500px) {
+/*Home_Index Changes*/
+    .top-content{
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .top-content .text-container{
+        width:auto;
+    }
+    .middle-content h2{
+        text-align: center;
+    }
+    .boxes .box{
+        width: 45%;
+        height: 150px;
+    }
+    .bottom-content{
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .bottom-content .text-container{
+        width: 80%;
+        padding: 3% 0;
+    }
+    .bottom-content .text-container h2{
+        text-align: center;
+    }
+    footer nav{
+        flex-flow: column;
+        align-items: center;
+    }
+
+    /*About Page*/
+    .aboutTop{
+        text-align: justify;
+        width: 80%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .aboutMidTop{
+        flex-flow: column;
+    }
+    .aboutMidBottom{
+        flex-flow: column;
+    }
+    .aboutBox{
+        width:80%
+    }
+    .aboutBox h3, .aboutBox button{
+        text-align: center;
+    }
+    .aboutBottom h4{
+        text-align: center;
+    }
+}
+
