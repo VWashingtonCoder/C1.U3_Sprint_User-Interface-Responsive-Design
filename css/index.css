@@ -258,5 +258,29 @@ header .bgAbout{
         flex-flow: column;
         align-items: center;
     }
+
+    /*About Page*/
+    .aboutTop{
+        text-align: justify;
+        width: 80%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .aboutMidTop{
+        flex-flow: column;
+    }
+    .aboutMidBottom{
+        flex-flow: column;
+    }
+    .aboutBox{
+        width:80%
+    }
+    .aboutBox h3, .aboutBox button{
+        text-align: center;
+    }
+    .aboutBottom h4{
+        text-align: center;
+    }
 }
 
